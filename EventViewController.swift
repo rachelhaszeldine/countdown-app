@@ -39,7 +39,7 @@ class EventViewController: UIViewController {
         super.viewDidLoad()
         eventName.text = event?.title
         eventName.textColor = event?.category.colour()
-        eventName.font = UIFont(name: "Noteworthy", size: CGFloat(24))
+        //eventName.font = UIFont(name: "Noteworthy", size: CGFloat(24))
         eventDate.text = event?.dateString()
         
         self.title = event?.title

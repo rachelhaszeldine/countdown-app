@@ -80,7 +80,7 @@ class ViewController2: UIViewController {
     
     @IBAction func addTapped(_ sender: Any) {
         guard let titleText = titleTextField.text,
-            let dateText = dateTextField.text,
+            //let dateText = dateTextField.text,
             let categoryText = categoryTextField.text,
             let category = Category(rawValue: categoryText)
         else {

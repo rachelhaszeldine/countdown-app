@@ -2,13 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/rachelquartly/Documents/Xcode/countdown-app/countdown-app/Gradient_cloud.png">
-   </FileRef>
-   <FileRef
-      location = "group:Gradient_cloud.png">
-   </FileRef>
-   <FileRef
-      location = "group:/Users/rachelquartly/Documents/Xcode/countdown-app/countdown-app/Gradient.png">
+      location = "group:/Users/rachelquartly/Documents/Xcode/countdown-app/countdown-app/gradient-cloud.png">
    </FileRef>
    <FileRef
       location = "self:">

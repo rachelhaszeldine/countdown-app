@@ -10,11 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    @IBOutlet weak var logoImage: UIImageView!
-    
     @IBOutlet weak var tableView: UITableView!
-    
-    @IBOutlet weak var plusButton: UIButton!
     
     @IBOutlet weak var addNewButton: UIButton!
     
@@ -39,6 +35,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         tableView.register(nib, forCellReuseIdentifier: "CountdownCellReuseIdentifier")
         tableView.dataSource = self
         tableView.delegate = self
+        tableView.rowHeight = 70
     }
 
     override func didReceiveMemoryWarning() {

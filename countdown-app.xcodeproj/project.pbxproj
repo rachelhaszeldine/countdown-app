@@ -16,11 +16,12 @@
 		0267D7BE1EE3857200D0630C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0267D7BD1EE3857200D0630C /* AppDelegate.swift */; };
 		0267D7C01EE3857200D0630C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0267D7BF1EE3857200D0630C /* ViewController.swift */; };
 		0267D7C31EE3857200D0630C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0267D7C11EE3857200D0630C /* Main.storyboard */; };
-		0267D7C51EE3857200D0630C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0267D7C41EE3857200D0630C /* Assets.xcassets */; };
 		0267D7C81EE3857200D0630C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0267D7C61EE3857200D0630C /* LaunchScreen.storyboard */; };
 		0267D7D31EE3857200D0630C /* countdown_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0267D7D21EE3857200D0630C /* countdown_appTests.swift */; };
 		0267D7DE1EE3857200D0630C /* countdown_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0267D7DD1EE3857200D0630C /* countdown_appUITests.swift */; };
-		026E44051F8D7FCC008C7085 /* gradient-cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 026E44041F8D7FCC008C7085 /* gradient-cloud.png */; };
+		02C46FF51F8E788A005DEA5F /* gradient-cloud-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 02C46FF41F8E788A005DEA5F /* gradient-cloud-2.png */; };
+		02C46FF71F8E7B20005DEA5F /* noun_1189765_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = 02C46FF61F8E7B20005DEA5F /* noun_1189765_cc.png */; };
+		02C46FF91F8EBA58005DEA5F /* gradient-cloud-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 02C46FF81F8EBA58005DEA5F /* gradient-cloud-3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,11 +48,11 @@
 		0229AB161EEEF28D000DF90E /* EventModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
 		0229AB1A1F04F797000DF90E /* CountdownCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownCell.swift; sourceTree = "<group>"; };
 		0229AB1B1F04F797000DF90E /* CountdownCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountdownCell.xib; sourceTree = "<group>"; };
+		02651B6D1F8E4562000A2D7F /* cloud-app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud-app-icon.png"; sourceTree = "<group>"; };
 		0267D7BA1EE3857200D0630C /* countdown-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "countdown-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0267D7BD1EE3857200D0630C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0267D7BF1EE3857200D0630C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0267D7C21EE3857200D0630C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0267D7C41EE3857200D0630C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0267D7C71EE3857200D0630C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0267D7C91EE3857200D0630C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0267D7CE1EE3857200D0630C /* countdown-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "countdown-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,7 +61,10 @@
 		0267D7D91EE3857200D0630C /* countdown-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "countdown-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0267D7DD1EE3857200D0630C /* countdown_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countdown_appUITests.swift; sourceTree = "<group>"; };
 		0267D7DF1EE3857200D0630C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		026E44041F8D7FCC008C7085 /* gradient-cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradient-cloud.png"; sourceTree = "<group>"; };
+		02C327AB1F8E46240043CDBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02C46FF41F8E788A005DEA5F /* gradient-cloud-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradient-cloud-2.png"; sourceTree = "<group>"; };
+		02C46FF61F8E7B20005DEA5F /* noun_1189765_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noun_1189765_cc.png; sourceTree = "<group>"; };
+		02C46FF81F8EBA58005DEA5F /* gradient-cloud-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradient-cloud-3.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,9 +123,12 @@
 				0229AB1A1F04F797000DF90E /* CountdownCell.swift */,
 				0229AB1B1F04F797000DF90E /* CountdownCell.xib */,
 				0229AB161EEEF28D000DF90E /* EventModel.swift */,
-				0267D7C41EE3857200D0630C /* Assets.xcassets */,
+				02C327AB1F8E46240043CDBD /* Assets.xcassets */,
+				02C46FF61F8E7B20005DEA5F /* noun_1189765_cc.png */,
+				02C46FF41F8E788A005DEA5F /* gradient-cloud-2.png */,
+				02C46FF81F8EBA58005DEA5F /* gradient-cloud-3.png */,
+				02651B6D1F8E4562000A2D7F /* cloud-app-icon.png */,
 				0229AB141EEED4CE000DF90E /* 321.png */,
-				026E44041F8D7FCC008C7085 /* gradient-cloud.png */,
 				0267D7C61EE3857200D0630C /* LaunchScreen.storyboard */,
 				0267D7C91EE3857200D0630C /* Info.plist */,
 			);
@@ -257,11 +264,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0229AB151EEED4CE000DF90E /* 321.png in Resources */,
+				02C46FF71F8E7B20005DEA5F /* noun_1189765_cc.png in Resources */,
 				0267D7C81EE3857200D0630C /* LaunchScreen.storyboard in Resources */,
-				0267D7C51EE3857200D0630C /* Assets.xcassets in Resources */,
+				02C46FF51F8E788A005DEA5F /* gradient-cloud-2.png in Resources */,
 				0267D7C31EE3857200D0630C /* Main.storyboard in Resources */,
+				02C46FF91F8EBA58005DEA5F /* gradient-cloud-3.png in Resources */,
 				0229AB1D1F04F797000DF90E /* CountdownCell.xib in Resources */,
-				026E44051F8D7FCC008C7085 /* gradient-cloud.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
