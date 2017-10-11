@@ -16,6 +16,7 @@ Features to add:
 - Redesign homescreen layout
 - New homescreen background
 - New 'add' button
+- Custome TableView cells (longer, thicker edges)
 - Settings page (notification preferences, categories)
 - Profiles (back-up, view friends' lists)
 - Notifications
