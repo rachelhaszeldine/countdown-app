@@ -3,7 +3,7 @@ My second app.
 
 Event tracker with countdown functionality. 
 
-Features (completed):
+Completed features:
 
 - Add a new event
 - Asign each event a name, image, date and category
