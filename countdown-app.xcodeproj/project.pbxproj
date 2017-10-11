@@ -20,6 +20,7 @@
 		0267D7C81EE3857200D0630C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0267D7C61EE3857200D0630C /* LaunchScreen.storyboard */; };
 		0267D7D31EE3857200D0630C /* countdown_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0267D7D21EE3857200D0630C /* countdown_appTests.swift */; };
 		0267D7DE1EE3857200D0630C /* countdown_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0267D7DD1EE3857200D0630C /* countdown_appUITests.swift */; };
+		026E44051F8D7FCC008C7085 /* gradient-cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 026E44041F8D7FCC008C7085 /* gradient-cloud.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		0267D7D91EE3857200D0630C /* countdown-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "countdown-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0267D7DD1EE3857200D0630C /* countdown_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countdown_appUITests.swift; sourceTree = "<group>"; };
 		0267D7DF1EE3857200D0630C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		026E44041F8D7FCC008C7085 /* gradient-cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradient-cloud.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				0229AB161EEEF28D000DF90E /* EventModel.swift */,
 				0267D7C41EE3857200D0630C /* Assets.xcassets */,
 				0229AB141EEED4CE000DF90E /* 321.png */,
+				026E44041F8D7FCC008C7085 /* gradient-cloud.png */,
 				0267D7C61EE3857200D0630C /* LaunchScreen.storyboard */,
 				0267D7C91EE3857200D0630C /* Info.plist */,
 			);
@@ -258,6 +261,7 @@
 				0267D7C51EE3857200D0630C /* Assets.xcassets in Resources */,
 				0267D7C31EE3857200D0630C /* Main.storyboard in Resources */,
 				0229AB1D1F04F797000DF90E /* CountdownCell.xib in Resources */,
+				026E44051F8D7FCC008C7085 /* gradient-cloud.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

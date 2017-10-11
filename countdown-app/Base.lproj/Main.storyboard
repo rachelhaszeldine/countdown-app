@@ -6,8 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -23,6 +21,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gradient-cloud.png" translatesAutoresizingMaskIntoConstraints="NO" id="zko-Xy-hof">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZQ-Ip-wkW">
                                 <rect key="frame" x="323" y="68" width="20" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -33,8 +35,8 @@
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tUc-VG-6al">
-                                <rect key="frame" x="0.0" y="262" width="375" height="405"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="0.0" y="130" width="375" height="537"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="UBp-ec-9l7">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
@@ -53,24 +55,15 @@
                                     <segue destination="RgJ-yz-gdn" kind="show" id="u74-hn-ZH5"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="321.png" translatesAutoresizingMaskIntoConstraints="NO" id="JBN-9n-ZpS">
-                                <rect key="frame" x="109" y="164" width="157" height="90"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="90" id="V8I-2A-Rtw"/>
-                                    <constraint firstAttribute="width" secondItem="JBN-9n-ZpS" secondAttribute="height" multiplier="240:137" id="Ypv-PR-Bah"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="JBN-9n-ZpS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5vj-wl-tJg"/>
+                            <constraint firstItem="tUc-VG-6al" firstAttribute="top" secondItem="Jmh-qM-xts" secondAttribute="bottom" constant="8" id="20p-cd-tmb"/>
                             <constraint firstItem="tUc-VG-6al" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="KQp-Wv-Gxk"/>
                             <constraint firstItem="Jmh-qM-xts" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="28" id="NPw-8I-LkF"/>
                             <constraint firstAttribute="trailing" secondItem="Jmh-qM-xts" secondAttribute="trailing" constant="14" id="grp-Mn-xs9"/>
-                            <constraint firstItem="tUc-VG-6al" firstAttribute="top" secondItem="JBN-9n-ZpS" secondAttribute="bottom" constant="8" id="lso-cW-SVv"/>
                             <constraint firstItem="bZQ-Ip-wkW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="4" id="rkJ-qM-Jn7"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tUc-VG-6al" secondAttribute="bottom" id="rvl-sm-C1L"/>
-                            <constraint firstItem="JBN-9n-ZpS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="100" id="sHU-bO-CQ2"/>
                             <constraint firstAttribute="trailing" secondItem="bZQ-Ip-wkW" secondAttribute="trailing" constant="32" id="tW1-dG-OtE"/>
                             <constraint firstAttribute="trailing" secondItem="tUc-VG-6al" secondAttribute="trailing" id="ulv-7Q-vYj"/>
                         </constraints>
@@ -78,7 +71,6 @@
                     <navigationItem key="navigationItem" title="Countdown" id="e7y-j1-reC"/>
                     <connections>
                         <outlet property="addNewButton" destination="Jmh-qM-xts" id="IgQ-fF-4jl"/>
-                        <outlet property="logoImage" destination="JBN-9n-ZpS" id="6qH-Y7-VxB"/>
                         <outlet property="plusButton" destination="bZQ-Ip-wkW" id="rNe-n2-g7X"/>
                         <outlet property="tableView" destination="tUc-VG-6al" id="fAp-1j-x3P"/>
                         <segue destination="vK3-66-wba" kind="showDetail" identifier="showEventDetail" id="FVk-yt-qCH"/>
@@ -307,7 +299,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="321.png" width="1258" height="640"/>
+        <image name="gradient-cloud.png" width="882" height="1380"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="u74-hn-ZH5"/>

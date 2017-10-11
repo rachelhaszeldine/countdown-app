@@ -35,6 +35,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let nib = UINib(nibName: "CountdownCell", bundle: nil)
+        self.tableView.separatorColor = UIColor.white
         tableView.register(nib, forCellReuseIdentifier: "CountdownCellReuseIdentifier")
         tableView.dataSource = self
         tableView.delegate = self
