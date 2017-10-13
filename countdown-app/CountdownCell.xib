@@ -60,6 +60,7 @@
                     <constraint firstAttribute="trailing" secondItem="HzO-F3-cTy" secondAttribute="trailing" constant="32" id="x0S-4z-fqa"/>
                 </constraints>
             </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <connections>
                 <outlet property="daysLeft" destination="HzO-F3-cTy" id="rXY-ov-iZF"/>
                 <outlet property="eventDate" destination="KLO-WH-Pqj" id="frF-8K-fSD"/>
