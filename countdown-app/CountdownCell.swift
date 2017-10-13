@@ -19,7 +19,7 @@ class CountdownCell: UITableViewCell {
     
         eventName.text = event.title
         eventName.textColor = event.category.colour()
-        eventName.font = UIFont(name: "Noteworthy", size: CGFloat(24))
+        //eventName.font = UIFont(name: "Noteworthy", size: CGFloat(24))
         eventDate.text = event.dateString()
         
         let calendar = NSCalendar.current
@@ -27,8 +27,8 @@ class CountdownCell: UITableViewCell {
         let currentDate: Date = calendar.startOfDay(for: Date())
         let components = calendar.dateComponents([.day], from: currentDate, to: startDate)
         guard let numberOfDays = components.day else { return }
-        let postscript = numberOfDays == 1 ? "day to go!" : "days to go! 😱"
-        daysLeft.text = "\(numberOfDays) \(postscript)"
+        //let postscript = numberOfDays == 1 ? "day to go!" : "days to go! 😱"
+        daysLeft.text = "\(numberOfDays)" //\(postscript)"
     }
 
       override func awakeFromNib() {
