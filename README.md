@@ -13,6 +13,7 @@ Completed features:
 
 Features to add:
 
+- Tab bar
 - Redesign homescreen layout
 - New homescreen background
 - New 'add' button
