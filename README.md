@@ -24,6 +24,7 @@ Features to add:
 - Past events
 - Animation from homescreen to event details
 - Custom fonts
+- Add app icon
 
 Bugs to fix:
 
